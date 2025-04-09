@@ -1,12 +1,43 @@
-# Trying to help those front end engineer to be a product owner
+# Trying to help front end developer to be a product owner
+
+```
+In a small development team, if I have time to work on Figma, I can finish the web application development using AI!
+```
 
 This project aims to create a playground for rendering React web app in a simulated web browser or mobile frame. In AI era, front end engineer can be the IT product owner and change their job nature to become less coding, more interacting with users.
 
-Designer can start with Figma, front end engineer can start with development!
+## Idea
 
-## Workflow
+- ⭐️ Leverage Git Submodule to import the components (Still working on the development experience)
+- ⭐️ Fully interactive, not just screenshots of storyboard
+- ⭐️ Why not using browser? Browser can only show once screen at a time, user may lose track when the app has been navigated
 
-TBC
+## Expected Workflow
+
+### Step 1
+```
+Complete the MVP front end product using AI
+```
+### Step 2
+```
+Define the key features and scenes
+```
+### Step 3
+```
+Import the pages and components into this project
+```
+### Step 4
+```
+Set scenes and update the setting attribute in the Playground component
+```
+### Step 5
+```
+Demo the project step to audience and get feedback for adjustment
+```
+### Step 6
+```
+Once the UI/UX design has been signed off, switch back to the main project and deploy
+```
 
 ## React + TypeScript + Vite - Web/Mobile Playground
 
@@ -40,12 +71,12 @@ Here's a basic overview of the folder structure:
   - `assets/`: The iPhone and Browser frame static images
   - `components/`: Reusable React components
     - `playgrounds/`: Playground components for testing different features
-      - `WebBrowserPlayground.tsx`: Main playground component
-      - `TestingFrame.tsx`: YouTube video frame component
+     - `web/`: Playground components for testing on web browser
+       - `WebBrowserPlayground.tsx`
+     - `mobile/`: Playground components for testing on mobile
+       - `MobilePlayground.tsx`
   - `pages/`: Application pages
-    - `TestingPage.tsx`: Testing page with embedded content
-- `public/`: Static assets
-- `node_modules/`: Installed dependencies
+    - `TestingPage.tsx`: Testing page to be embedded to the frame
 
 ## Features
 
