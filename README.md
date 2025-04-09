@@ -1,10 +1,10 @@
-# Trying to help front end developer to be a product owner
+# Front End Engineer + AI = IT Product Owner
 
 ```
 In a small development team, if I have time to work on Figma, I can finish the web application development using AI!
 ```
 
-This project aims to create a playground for rendering React web app in a simulated web browser or mobile frame. In AI era, front end engineer can be the IT product owner and change their job nature to become less coding, more interacting with users.
+This project aims to create a playground for rendering React web app in a simulated web browser or mobile frame. In AI era, front end engineer can be the IT product owner and change their job nature to become less time on coding, more time on interacting with users to build good product.
 
 ## Idea
 
@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-The project will be available at http://localhost:3000 by default.
+The project will be available at http://localhost:5173 by default.
 
 ## Project Structure
 
